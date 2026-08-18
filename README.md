@@ -63,9 +63,11 @@ Code samples
 Selected files from the production codebase.
 
 File	What it shows
-samples/payment-webhook.ts	Signature verification, idempotency, subscription state transitions
-samples/subscription.service.ts	Billing cycle, plan changes, cancellation
-samples/washer-zone-capacity.ts	Zone capacity calculation and assignment
+| File | What it shows |
+|---|---|
+| `samples/payment-provider.ts` | HMAC webhook verification, mandate creation, fail-closed secret validation |
+| `samples/payments.service.ts` | Idempotent webhook handling, subscription activation, invoice generation |
+| `samples/washer-zone-capacity.ts` | Zone capacity and hiring-gap calculation |
 ## Screenshots
 
 | | |
