@@ -12,7 +12,7 @@ Component	Stack	Responsibility
 Backend API	NestJS · Prisma · PostgreSQL	Auth, subscriptions, billing, wash execution, ratings, referrals
 Customer app	Flutter	Subscribe, track today's wash, view photo proof, rate, refer
 Washer app	Flutter	Check-in, daily route, wash completion, earnings
-CEO dashboard	Vite · React	Super-admin view across all hubs
+support console	Vite · React	Super-admin view across all hubs
 Hub console	Vite · React	Daily operations for a single hub office
 Support console	Vite · React	Subscriber lookup, call logging, issue resolution
 
@@ -66,12 +66,14 @@ File	What it shows
 samples/payment-webhook.ts	Signature verification, idempotency, subscription state transitions
 samples/subscription.service.ts	Billing cycle, plan changes, cancellation
 samples/washer-zone-capacity.ts	Zone capacity calculation and assignment
-Screenshots
-	
-Show Image	Show Image
-Customer app	Washer app
-Show Image	Show Image
-Hub operations console	CEO dashboard
+## Screenshots
+
+| | |
+|---|---|
+| ![Customer app](screenshots/customer-app.jpg) | ![Washer app](screenshots/washer-app.jpg) |
+| Customer app — subscribe, track wash, view proof | Washer app — route, check-in, completion |
+| ![Hub console](screenshots/hub-console.png) | ![Support console](screenshots/support-console.png) |
+| Hub operations console | Support console — subscriber lookup, call logging |
 Contact
 
 Built by Rahul Yadav — Flutter and React developer, available for freelance work.
